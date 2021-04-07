@@ -34,6 +34,22 @@ At the bottom of the screen are the following.
 
 - NOTE: The Pattern and Date field will be used whether you use the **Search** button or double click a table name.
 
-![SQL Search](images/sql_search.png)
 ![Search Example](images/search_example.png)
 
+An example of an SQL search query.
+
+![History](images/history.png)
+
+The History screen allows you to select previous SQL statements entered.
+
+## Install:
+
+You could import the java/froglog_gui.zip file into an Eclipse IDE and recompile the code to create a jar file or use the already created jar file called lib/froglog.jar to run the Froglog GUI.
+
+The other jar files in the lib directory are also needed to run the GUI.
+
+You will need to install a Java 11 or better JVM.  On the Raspberry Pi I used the [BellSoft](https://bell-sw.com/) release.  Download the JDK 11 for Linux ARM release for DEB and use the command below to install it on Raspberry Pi.
+
+	sudo dpkg -i fileName.deb
+
+I have included a Bash script to execute the java command line for th GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed file their.

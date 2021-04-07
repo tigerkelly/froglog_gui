@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export DISPLAY=192.168.0.8:0.0
+
+# /home/pi/work/visualvm_202/bin/visualvm --jdkhome /usr/lib/jvm/bellsoft-java15-full-arm32-vfp-hflt
+/home/pi/work/visualvm_202/bin/visualvm --jdkhome /usr/lib/jvm/java-11-openjdk-armhf
