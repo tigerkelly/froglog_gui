@@ -20,12 +20,12 @@ The main screen above will display all of the log tables currently in the databa
 
 At the bottom of the screen are the following.
 
-	Reload Tables - Reloads the log table and updates the message counts.
-	Pattern - In this field enter SQL LIKE pattern to search the messages (logmsg) field in the table.
-	Date - This date field is used to limit the query to the date given.
-	Search - This button queries the table selected using the Pattern or and Date field.
+- Reload Tables - Reloads the log table and updates the message counts.
+-Pattern - In this field enter SQL LIKE pattern to search the messages (logmsg) field in the table.
+- Date - This date field is used to limit the query to the date given.
+- Search - This button queries the table selected using the Pattern or and Date field.
 
-	SQL Seach - This button takes you to a new screen so that you can enter more complex SQL queries.
-	Reset - This button resets the Pattern and Date field to empty fields.
+- SQL Seach - This button takes you to a new screen so that you can enter more complex SQL queries.
+- Reset - This button resets the Pattern and Date field to empty fields.
 
-	NOTE: The Pattern and Date field will be used whether you use the **Search** button or double clicking a table name.
+- NOTE: The Pattern and Date field will be used whether you use the **Search** button or double clicking a table name.
