@@ -13,6 +13,7 @@ I wrote the Froglog program to be accessed on local networks and not over the in
 	I like all the code to be in one localtion instead of split between the server and client.
 	Did not want to deal with multiple lanaguages HTML, javscript, Node.js and others.
 	I wanted to access the file system and postgreSQL which I believe is much easier in Java.
+	IMO the state of web development is sad.  Do not get me started on all of the issues in web dev.
 
 ### Usage:
 
@@ -48,8 +49,8 @@ You could import the java/froglog_gui.zip file into an Eclipse IDE and recompile
 
 The other jar files in the lib directory are also needed to run the GUI.
 
-You will need to install a Java 11 or better JVM.  On the Raspberry Pi I used the [BellSoft](https://bell-sw.com/) release.  Download the JDK 11 for Linux ARM release for DEB and use the command below to install it on Raspberry Pi.
+You will need to install a Java 11 or better JVM.  On the Raspberry Pi, I used the [BellSoft](https://bell-sw.com/) release.  Download the JDK 11 for Linux ARM release for DEB and use the command below to install it on Raspberry Pi.
 
 	sudo dpkg -i fileName.deb
 
-I have included a Bash script to execute the java command line for th GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed file their.
+I have included a Bash script to execute the java command line for the GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed file their.
