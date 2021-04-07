@@ -35,5 +35,5 @@ At the bottom of the screen are the following.
 - NOTE: The Pattern and Date field will be used whether you use the **Search** button or double click a table name.
 
 ![SQL Search](images/sql_search.png)
-![Search Example](images/search_eaxmple.png)
+![Search Example](images/search_example.png)
 
