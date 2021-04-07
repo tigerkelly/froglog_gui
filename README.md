@@ -39,7 +39,7 @@ At the bottom of the screen are the following.
 
 An example of an SQL search query.
 
-![History](images/history.png)
+![History](images/sql_history.png)
 
 The History screen allows you to select previous SQL statements entered.
 
