@@ -53,4 +53,4 @@ You will need to install a Java 11 or better JVM.  On the Raspberry Pi, I used t
 
 	sudo dpkg -i fileName.deb
 
-I have included a Bash script to execute the java command line for the GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed file their.
+I have included a Bash script to execute the java command line for the GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed files their.
