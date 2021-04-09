@@ -47,7 +47,13 @@ The History screen allows you to select previous SQL statements entered.
 
 **NOTE:** This repository contains binaries for the Raspberry Pi system, you will need to modify it to support other systems.
 
-Copy the bin directory contents to /home/pi/bin directory.  If you do not have a /home/pi/bin directory create it.
+Copy the bin directory contents to /home/pi/bin directory.  If you do not have a /home/pi/bin directory create it.  Also make sure your PATH variable points to the /home/pi/bin directory.
+
+	cp froglog_gui/bin/* /home/pi/bin
+	mkdir ~/Frolog
+	cp froglog_gui/lib/* ~/Froglog
+	cp froglog_gui/java/froglog.sh ~/Froglog
+
 
 The GUI uses the sql.sh script to access the database using psql commands.
 
