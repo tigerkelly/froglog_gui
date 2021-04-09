@@ -54,15 +54,21 @@ Copy the bin directory contents to /home/pi/bin directory.  If you do not have a
 	cp froglog_gui/lib/* ~/Froglog
 	cp froglog_gui/java/froglog.sh ~/Froglog
 
-
-The GUI uses the sql.sh script to access the database using psql commands.
-
-You could import the java/froglog_gui.zip file into an Eclipse IDE and recompile the code to create a jar file or use the already created jar file called lib/froglog.jar to run the Froglog GUI.
+You could import the java/froglog_gui.zip file into an Eclipse IDE and recompile the code to create a jar file or use the already created jar file called lib/froglog.jar to run the **Froglog** GUI.
 
 The other jar files in the lib directory are also needed to run the GUI.
+
+The GUI uses the sql.sh script to access the database using psql commands.
 
 You will need to install a Java 11 or better JVM.  On the Raspberry Pi, I used the [BellSoft](https://bell-sw.com/) release.  Download the JDK 11 for Linux ARM release for DEB and use the command below to install it on Raspberry Pi.
 
 	sudo dpkg -i fileName.deb
 
 I have included a Bash script to execute the java command line for the GUI called froglog.sh.  Place the froglog.sh in the same directory as the other jar files.  Nortmally I create a directory called Froglog in my home directory and copy all needed files their.
+
+To start the GUI.
+
+	cd ~/Froglog
+	./froglog.sh
+
+Please send me an email if you need help and to let me know what projects you are using this logging system with, thanks.
