@@ -19,7 +19,7 @@ I wrote the Froglog program to be accessed on local networks and not over the in
 
 The main screen above will display all of the log tables currently in the database on the left hand side.  If you right click a table you get a popup menu to select Query, Purge, Create and Delete the table.  Also if you double click a table name will query the table.
 
-In the popup menu the Purge, Create and Delete actions are password protected.  The default password is _LetFroglogin2_, this can be changed and probable should be changed for your environment.
+In the popup menu the Purge, Create and Delete actions are password protected.  The default password is _LetFroglogin2_, this can be changed and probably should be changed for your environment.
 
 The password is stored in a .ini file called froglog.ini in the working directory.  The password is stored as a sha256 sum of the password.  Use the script call froglogpwd or you can change it by hand by editing the froglog.ini file and replacing the adminPassword key/value pair with the output of the sha256sum program.
 
@@ -28,7 +28,7 @@ At the bottom of the screen are the following.
 - Reload Tables - Reloads the log table and updates the message counts.
 - Pattern - In this field enter SQL LIKE pattern to search the messages (logmsg) field in the table.
 - Date - This date field is used to limit the query to the date given.
-- Search - This button queries the table selected using the Pattern or and Date field.
+- Search - This button queries the table selected using the Pattern and or Date field.
 
 - SQL Seach - This button takes you to a new screen so that you can enter more complex SQL queries.
 - Reset - This button resets the Pattern and Date field to empty fields.
